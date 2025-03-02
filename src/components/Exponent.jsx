@@ -1,7 +1,7 @@
-const ExponentTwo = (props) => {
+const Exponent = (props) => {
 
     let numero = props.count;
-    let resultado = numero*numero;
+    let resultado = numero**props.exponente;
 
     
     return (
@@ -14,4 +14,4 @@ const ExponentTwo = (props) => {
   
 };
 
-export default ExponentTwo;
+export default Exponent;
